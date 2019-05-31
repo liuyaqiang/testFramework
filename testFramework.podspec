@@ -17,11 +17,11 @@ s.platform         = :ios, '9.0'
 
 s.source           = { :git => "https://github.com/liuyaqiang/testFramework.git", :tag => "#{s.version}" }
 
-s.vendored_frameworks = 'testFramework/testFramework.framework'
+s.vendored_frameworks = 'testFramework/test1Framework.framework'
 
-s.source_files     = 'testFramework/testFramework.framework/Headers/*.{h}'
+s.source_files     = 'testFramework/test1Framework.framework/Headers/*.{h}'
 
-s.public_header_files = 'testFramework/testFramework.framework/Headers/**/*.{h}'
+s.public_header_files = 'testFramework/test1Framework.framework/Headers/**/*.{h}'
 
 s.xcconfig         = { 'OTHER_LDFLAGS' => '-ObjC -lxml2'}
 
